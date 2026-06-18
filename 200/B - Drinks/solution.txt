@@ -1,0 +1,18 @@
+package main
+import "fmt"
+ 
+func main(){
+	var n,sum int
+	fmt.Scan(&n)
+ 
+	percentages := make([]int,n)
+	for i:=0; i<n; i++{
+		fmt.Scan(&percentages[i])
+	}
+ 
+	for _, i:= range percentages{
+		sum +=i
+	}
+ 
+	fmt.Println(float64(sum)/float64(n))
+}
