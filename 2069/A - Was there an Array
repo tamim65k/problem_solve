@@ -1,17 +1,35 @@
-<h2><a href="https://codeforces.com/contest/2069/problem/A" target="_blank" rel="noopener noreferrer">2069A — Was there an Array?</a></h2>
-
-| | |
-|---|---|
-| **Difficulty** | 800 |
-| **Language** | C++20 (GCC 13-64) |
-| **Verdict** | ✅ Accepted |
-| **Problem Link** | [Codeforces 2069A](https://codeforces.com/contest/2069/problem/A) |
-
-## Topics
-`graph matchings` `greedy`
-
----
-
-## Problem Statement
-
-_Problem statement could not be retrieved. Please visit the link above._
+#include <bits/stdc++.h>
+using namespace std;
+using ll = long long;
+ 
+void solve() {
+    int n; cin >> n;
+    std::vector<int> v(n - 2);
+    for (int i = 0; i < n - 2; ++i)
+    {
+        cin >> v[i];
+    }
+    for (int i = 0; i < n - 4; ++i)
+    {
+        if (v[i] == 1 and v[i + 1] == 0 and v[i + 2] == 1)
+        {
+            cout << "NO" << endl;
+            return;
+ 
+        }
+    }
+    cout << "YES" << endl;
+ 
+ 
+}
+ 
+int main() {
+    ios_base::sync_with_stdio(0);
+    cin.tie(0);
+ 
+    int t;
+    cin >> t;
+    while (t--) solve();
+ 
+    return 0;
+}
