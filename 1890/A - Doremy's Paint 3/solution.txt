@@ -1,0 +1,50 @@
+package main
+ 
+import (
+	"fmt"
+	"math"
+)
+ 
+func solve() {
+	var n int
+	fmt.Scan(&n)
+ 
+	occurrence := make(map[int]int)
+	for i := 0; i < n; i++ {
+		var x int
+		fmt.Scan(&x)
+		occurrence[x]++
+	}
+ 
+	if len(occurrence) >= 3 {
+		fmt.Println("No")
+	} else {
+		var firstCount, secondCount int
+		for _, count := range occurrence {
+			if firstCount == 0 {
+				firstCount = count
+			} else if secondCount == 0 {
+				secondCount = count
+			}
+		}
+ 
+		if secondCount == 0 {
+			secondCount = firstCount
+		}
+ 
+		if math.Abs(float64(firstCount-secondCount)) <= 1 {
+			fmt.Println("Yes")
+		} else {
+			fmt.Println("No")
+		}
+	}
+}
+ 
+func main() {
+	var tc int
+	fmt.Scan(&tc)
+ 
+	for i := 0; i < tc; i++ {
+		solve()
+	}
+}
