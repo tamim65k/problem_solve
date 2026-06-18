@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 90 | 15 |
+| 105 | 16 |
 
 ---
 
@@ -14,19 +14,20 @@
 
 - [*special](#special) (1)
 - [binary search](#binary-search) (2)
-- [brute force](#brute-force) (18)
-- [constructive algorithms](#constructive-algorithms) (6)
+- [brute force](#brute-force) (22)
+- [constructive algorithms](#constructive-algorithms) (8)
 - [data structures](#data-structures) (1)
-- [dp](#dp) (1)
-- [games](#games) (1)
+- [dp](#dp) (2)
+- [games](#games) (2)
+- [geometry](#geometry) (1)
 - [graph matchings](#graph-matchings) (1)
-- [greedy](#greedy) (17)
-- [implementation](#implementation) (60)
-- [math](#math) (24)
+- [greedy](#greedy) (21)
+- [implementation](#implementation) (68)
+- [math](#math) (31)
 - [number theory](#number-theory) (6)
 - [shortest paths](#shortest-paths) (1)
-- [sortings](#sortings) (13)
-- [strings](#strings) (14)
+- [sortings](#sortings) (14)
+- [strings](#strings) (18)
 
 ---
 
@@ -55,16 +56,20 @@
 | 236A | [Boy or Girl](https://codeforces.com/contest/236/problem/A) | 800 | [Python 3](https://github.com/tamim65k/problem_solve/blob/HEAD/236/A%20-%20Boy%20or%20Girl/solution.py) |
 | 268A | [Games](https://codeforces.com/contest/268/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/268/A%20-%20Games/solution.java) |
 | 271A | [Beautiful Year](https://codeforces.com/contest/271/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/271/A%20-%20Beautiful%20Year/solution.java) |
+| 385B | [Bear and Strings](https://codeforces.com/contest/385/problem/B) | 1200 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/385/B%20-%20Bear%20and%20Strings/solution.java) |
 | 479A | [Expression](https://codeforces.com/contest/479/problem/A) | 1000 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/479/A%20-%20Expression/solution.java) |
 | 546A | [Soldier and Bananas](https://codeforces.com/contest/546/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/546/A%20-%20Soldier%20and%20Bananas/solution.java) |
+| 894A | [QAQ](https://codeforces.com/contest/894/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/894/A%20-%20QAQ/solution.java) |
 | 918A | [Eleven](https://codeforces.com/contest/918/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/918/A%20-%20Eleven/solution.java) |
 | 935A | [Fafa and his Company](https://codeforces.com/contest/935/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/935/A%20-%20Fafa%20and%20his%20Company/solution.java) |
 | 1088A | [Ehab and another construction problem](https://codeforces.com/contest/1088/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/1088/A%20-%20Ehab%20and%20another%20construction%20problem/solution.java) |
 | 1191A | [Tokitsukaze and Enhancement](https://codeforces.com/contest/1191/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/1191/A%20-%20Tokitsukaze%20and%20Enhancement/solution.java) |
+| 1269A | [Equation](https://codeforces.com/contest/1269/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/1269/A%20-%20Equation/solution.java) |
 | 1535A | [Fair Playoff](https://codeforces.com/contest/1535/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/1535/A%20-%20Fair%20Playoff/solution.java) |
 | 1873A | [Short Sort](https://codeforces.com/contest/1873/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/1873/A%20-%20Short%20Sort/solution.java) |
 | 2008C | [Longest Good Array](https://codeforces.com/contest/2008/problem/C) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/2008/C%20-%20Longest%20Good%20Array/solution.java) |
 | 2021B | [Maximize Mex](https://codeforces.com/contest/2021/problem/B) | 1200 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/2021/B%20-%20Maximize%20Mex/solution.java) |
+| 2033B | [Sakurako and Water](https://codeforces.com/contest/2033/problem/B) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/2033/B%20-%20Sakurako%20and%20Water/solution.cpp) |
 
 ### constructive algorithms
 
@@ -76,6 +81,8 @@
 | 1088A | [Ehab and another construction problem](https://codeforces.com/contest/1088/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/1088/A%20-%20Ehab%20and%20another%20construction%20problem/solution.java) |
 | 2022A | [Bus to Pénjamo](https://codeforces.com/contest/2022/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/2022/A%20-%20Bus%20to%20P%C3%A9njamo/solution.java) |
 | 2030A | [A Gift From Orangutan](https://codeforces.com/contest/2030/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/2030/A%20-%20A%20Gift%20From%20Orangutan/solution.java) |
+| 2033A | [Sakurako and Kosuke](https://codeforces.com/contest/2033/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/2033/A%20-%20Sakurako%20and%20Kosuke/solution.java) |
+| 2033B | [Sakurako and Water](https://codeforces.com/contest/2033/problem/B) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/2033/B%20-%20Sakurako%20and%20Water/solution.cpp) |
 
 ### data structures
 
@@ -87,13 +94,21 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 894A | [QAQ](https://codeforces.com/contest/894/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/894/A%20-%20QAQ/solution.java) |
 | 1180A | [Alex and a Rhombus](https://codeforces.com/contest/1180/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/1180/A%20-%20Alex%20and%20a%20Rhombus/solution.java) |
 
 ### games
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 832A | [Sasha and Sticks](https://codeforces.com/contest/832/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/832/A%20-%20Sasha%20and%20Sticks/solution.java) |
 | 959A | [Mahmoud and Ehab and the even-odd game](https://codeforces.com/contest/959/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/959/A%20-%20Mahmoud%20and%20Ehab%20and%20the%20even-odd%20game/solution.java) |
+
+### geometry
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 2027A | [Rectangle Arrangement](https://codeforces.com/contest/2027/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/2027/A%20-%20Rectangle%20Arrangement/solution.java) |
 
 ### graph matchings
 
@@ -111,17 +126,21 @@
 | 231A | [Team](https://codeforces.com/contest/231/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/231/A%20-%20Team/solution.java) |
 | 337A | [Puzzles](https://codeforces.com/contest/337/problem/A) | 900 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/337/A%20-%20Puzzles/solution.java) |
 | 339A | [Helpful Maths](https://codeforces.com/contest/339/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/339/A%20-%20Helpful%20Maths/solution.java) |
+| 385B | [Bear and Strings](https://codeforces.com/contest/385/problem/B) | 1200 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/385/B%20-%20Bear%20and%20Strings/solution.java) |
 | 405A | [Gravity Flip](https://codeforces.com/contest/405/problem/A) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/405/A%20-%20Gravity%20Flip/solution.cpp) |
 | 432A | [Choosing Teams](https://codeforces.com/contest/432/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/432/A%20-%20Choosing%20Teams/solution.java) |
 | 469A | [I Wanna Be the Guy](https://codeforces.com/contest/469/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/469/A%20-%20I%20Wanna%20Be%20the%20Guy/solution.java) |
 | 490A | [Team Olympiad](https://codeforces.com/contest/490/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/490/A%20-%20Team%20Olympiad/solution.java) |
+| 588A | [Duff and Meat](https://codeforces.com/contest/588/problem/A) | 900 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/588/A%20-%20Duff%20and%20Meat/solution.java) |
 | 1106C | [Lunar New Year and Number Division](https://codeforces.com/contest/1106/problem/C) | 900 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/1106/C%20-%20Lunar%20New%20Year%20and%20Number%20Division/solution.java) |
 | 1152A | [Neko Finds Grapes](https://codeforces.com/contest/1152/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/1152/A%20-%20Neko%20Finds%20Grapes/solution.java) |
 | 1287A | [Angry Students](https://codeforces.com/contest/1287/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/1287/A%20-%20Angry%20Students/solution.java) |
+| 1991A | [Maximize the Last Element](https://codeforces.com/contest/1991/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/1991/A%20-%20Maximize%20the%20Last%20Element/solution.java) |
 | 2021A | [Meaning Mean](https://codeforces.com/contest/2021/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/2021/A%20-%20Meaning%20Mean/solution.java) |
 | 2021B | [Maximize Mex](https://codeforces.com/contest/2021/problem/B) | 1200 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/2021/B%20-%20Maximize%20Mex/solution.java) |
 | 2022A | [Bus to Pénjamo](https://codeforces.com/contest/2022/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/2022/A%20-%20Bus%20to%20P%C3%A9njamo/solution.java) |
 | 2030A | [A Gift From Orangutan](https://codeforces.com/contest/2030/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/2030/A%20-%20A%20Gift%20From%20Orangutan/solution.java) |
+| 2033B | [Sakurako and Water](https://codeforces.com/contest/2033/problem/B) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/2033/B%20-%20Sakurako%20and%20Water/solution.cpp) |
 
 ### implementation
 
@@ -147,6 +166,7 @@
 | 339A | [Helpful Maths](https://codeforces.com/contest/339/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/339/A%20-%20Helpful%20Maths/solution.java) |
 | 339B | [Xenia and Ringroad](https://codeforces.com/contest/339/problem/B) | 1000 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/339/B%20-%20Xenia%20and%20Ringroad/solution.java) |
 | 344A | [Magnets](https://codeforces.com/contest/344/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/344/A%20-%20Magnets/solution.java) |
+| 385B | [Bear and Strings](https://codeforces.com/contest/385/problem/B) | 1200 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/385/B%20-%20Bear%20and%20Strings/solution.java) |
 | 405A | [Gravity Flip](https://codeforces.com/contest/405/problem/A) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/405/A%20-%20Gravity%20Flip/solution.cpp) |
 | 432A | [Choosing Teams](https://codeforces.com/contest/432/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/432/A%20-%20Choosing%20Teams/solution.java) |
 | 443A | [Anton and Letters](https://codeforces.com/contest/443/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/443/A%20-%20Anton%20and%20Letters/solution.java) |
@@ -159,6 +179,7 @@
 | 573A | [Bear and Poker](https://codeforces.com/contest/573/problem/A) | 1300 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/573/A%20-%20Bear%20and%20Poker/solution.java) |
 | 677A | [Vanya and Fence](https://codeforces.com/contest/677/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/677/A%20-%20Vanya%20and%20Fence/solution.java) |
 | 734A | [Anton and Danik](https://codeforces.com/contest/734/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/734/A%20-%20Anton%20and%20Danik/solution.java) |
+| 746B | [Decoding](https://codeforces.com/contest/746/problem/B) | 900 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/746/B%20-%20Decoding/solution.java) |
 | 791A | [Bear and Big Brother](https://codeforces.com/contest/791/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/791/A%20-%20Bear%20and%20Big%20Brother/solution.java) |
 | 831B | [Keyboard Layouts](https://codeforces.com/contest/831/problem/B) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/831/B%20-%20Keyboard%20Layouts/solution.java) |
 | 867A | [Between the Offices](https://codeforces.com/contest/867/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/867/A%20-%20Between%20the%20Offices/solution.java) |
@@ -171,6 +192,7 @@
 | 987A | [Infinity Gauntlet](https://codeforces.com/contest/987/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/987/A%20-%20Infinity%20Gauntlet/solution.java) |
 | 994A | [Fingerprints](https://codeforces.com/contest/994/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/994/A%20-%20Fingerprints/solution.java) |
 | 1017A | [The Rank](https://codeforces.com/contest/1017/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/1017/A%20-%20The%20Rank/solution.java) |
+| 1028A | [Find Square](https://codeforces.com/contest/1028/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/1028/A%20-%20Find%20Square/solution.java) |
 | 1030A | [In Search of an Easy Problem](https://codeforces.com/contest/1030/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/1030/A%20-%20In%20Search%20of%20an%20Easy%20Problem/solution.java) |
 | 1106C | [Lunar New Year and Number Division](https://codeforces.com/contest/1106/problem/C) | 900 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/1106/C%20-%20Lunar%20New%20Year%20and%20Number%20Division/solution.java) |
 | 1136A | [Nastya Is Reading a Book](https://codeforces.com/contest/1136/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/1136/A%20-%20Nastya%20Is%20Reading%20a%20Book/solution.java) |
@@ -182,11 +204,16 @@
 | 1243A | [Maximum Square](https://codeforces.com/contest/1243/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/1243/A%20-%20Maximum%20Square/solution.java) |
 | 1287A | [Angry Students](https://codeforces.com/contest/1287/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/1287/A%20-%20Angry%20Students/solution.java) |
 | 1535A | [Fair Playoff](https://codeforces.com/contest/1535/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/1535/A%20-%20Fair%20Playoff/solution.java) |
+| 1669B | [Triple](https://codeforces.com/contest/1669/problem/B) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/1669/B%20-%20Triple/solution.java) |
 | 1676A | [Lucky?](https://codeforces.com/contest/1676/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/1676/A%20-%20Lucky%3F/solution.cpp) |
 | 1850A | [To My Critics](https://codeforces.com/contest/1850/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/1850/A%20-%20To%20My%20Critics/solution.java) |
 | 1873A | [Short Sort](https://codeforces.com/contest/1873/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/1873/A%20-%20Short%20Sort/solution.java) |
 | 1915C | [Can I Square?](https://codeforces.com/contest/1915/problem/C) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/1915/C%20-%20Can%20I%20Square%3F/solution.java) |
+| 1991A | [Maximize the Last Element](https://codeforces.com/contest/1991/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/1991/A%20-%20Maximize%20the%20Last%20Element/solution.java) |
+| 2000A | [Primary Task](https://codeforces.com/contest/2000/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/2000/A%20-%20Primary%20Task/solution.java) |
 | 2022A | [Bus to Pénjamo](https://codeforces.com/contest/2022/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/2022/A%20-%20Bus%20to%20P%C3%A9njamo/solution.java) |
+| 2027A | [Rectangle Arrangement](https://codeforces.com/contest/2027/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/2027/A%20-%20Rectangle%20Arrangement/solution.java) |
+| 2033A | [Sakurako and Kosuke](https://codeforces.com/contest/2033/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/2033/A%20-%20Sakurako%20and%20Kosuke/solution.java) |
 
 ### math
 
@@ -196,14 +223,17 @@
 | 50A | [Domino piling](https://codeforces.com/contest/50/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/50/A%20-%20Domino%20piling/solution.java) |
 | 69A | [Young Physicist](https://codeforces.com/contest/69/problem/A) | 1000 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/69/A%20-%20Young%20Physicist/solution.java) |
 | 318A | [Even Odds](https://codeforces.com/contest/318/problem/A) | 900 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/318/A%20-%20Even%20Odds/solution.java) |
+| 385B | [Bear and Strings](https://codeforces.com/contest/385/problem/B) | 1200 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/385/B%20-%20Bear%20and%20Strings/solution.java) |
 | 472A | [Design Tutorial: Learn from Math](https://codeforces.com/contest/472/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/472/A%20-%20Design%20Tutorial%3A%20Learn%20from%20Math/solution.java) |
 | 479A | [Expression](https://codeforces.com/contest/479/problem/A) | 1000 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/479/A%20-%20Expression/solution.java) |
 | 546A | [Soldier and Bananas](https://codeforces.com/contest/546/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/546/A%20-%20Soldier%20and%20Bananas/solution.java) |
 | 573A | [Bear and Poker](https://codeforces.com/contest/573/problem/A) | 1300 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/573/A%20-%20Bear%20and%20Poker/solution.java) |
 | 617A | [Elephant](https://codeforces.com/contest/617/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/617/A%20-%20Elephant/solution.java) |
 | 682A | [Alyona and Numbers](https://codeforces.com/contest/682/problem/A) | 1100 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/682/A%20-%20Alyona%20and%20Numbers/solution.java) |
+| 832A | [Sasha and Sticks](https://codeforces.com/contest/832/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/832/A%20-%20Sasha%20and%20Sticks/solution.java) |
 | 898A | [Rounding](https://codeforces.com/contest/898/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/898/A%20-%20Rounding/solution.java) |
 | 959A | [Mahmoud and Ehab and the even-odd game](https://codeforces.com/contest/959/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/959/A%20-%20Mahmoud%20and%20Ehab%20and%20the%20even-odd%20game/solution.java) |
+| 1047A | [Little C Loves 3 I](https://codeforces.com/contest/1047/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/1047/A%20-%20Little%20C%20Loves%203%20I/solution.java) |
 | 1080A | [Petya and Origami](https://codeforces.com/contest/1080/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/1080/A%20-%20Petya%20and%20Origami/solution.java) |
 | 1106C | [Lunar New Year and Number Division](https://codeforces.com/contest/1106/problem/C) | 900 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/1106/C%20-%20Lunar%20New%20Year%20and%20Number%20Division/solution.java) |
 | 1152A | [Neko Finds Grapes](https://codeforces.com/contest/1152/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/1152/A%20-%20Neko%20Finds%20Grapes/solution.java) |
@@ -211,11 +241,15 @@
 | 1180A | [Alex and a Rhombus](https://codeforces.com/contest/1180/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/1180/A%20-%20Alex%20and%20a%20Rhombus/solution.java) |
 | 1206A | [Choose Two Numbers](https://codeforces.com/contest/1206/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/1206/A%20-%20Choose%20Two%20Numbers/solution.java) |
 | 1244A | [Pens and Pencils](https://codeforces.com/contest/1244/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/1244/A%20-%20Pens%20and%20Pencils/solution.java) |
+| 1269A | [Equation](https://codeforces.com/contest/1269/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/1269/A%20-%20Equation/solution.java) |
+| 2000A | [Primary Task](https://codeforces.com/contest/2000/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/2000/A%20-%20Primary%20Task/solution.java) |
 | 2008C | [Longest Good Array](https://codeforces.com/contest/2008/problem/C) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/2008/C%20-%20Longest%20Good%20Array/solution.java) |
 | 2021A | [Meaning Mean](https://codeforces.com/contest/2021/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/2021/A%20-%20Meaning%20Mean/solution.java) |
 | 2021B | [Maximize Mex](https://codeforces.com/contest/2021/problem/B) | 1200 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/2021/B%20-%20Maximize%20Mex/solution.java) |
 | 2022A | [Bus to Pénjamo](https://codeforces.com/contest/2022/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/2022/A%20-%20Bus%20to%20P%C3%A9njamo/solution.java) |
+| 2027A | [Rectangle Arrangement](https://codeforces.com/contest/2027/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/2027/A%20-%20Rectangle%20Arrangement/solution.java) |
 | 2030A | [A Gift From Orangutan](https://codeforces.com/contest/2030/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/2030/A%20-%20A%20Gift%20From%20Orangutan/solution.java) |
+| 2033A | [Sakurako and Kosuke](https://codeforces.com/contest/2033/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/2033/A%20-%20Sakurako%20and%20Kosuke/solution.java) |
 
 ### number theory
 
@@ -248,6 +282,7 @@
 | 1106C | [Lunar New Year and Number Division](https://codeforces.com/contest/1106/problem/C) | 900 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/1106/C%20-%20Lunar%20New%20Year%20and%20Number%20Division/solution.java) |
 | 1206A | [Choose Two Numbers](https://codeforces.com/contest/1206/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/1206/A%20-%20Choose%20Two%20Numbers/solution.java) |
 | 1220A | [Cards](https://codeforces.com/contest/1220/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/1220/A%20-%20Cards/solution.java) |
+| 1669B | [Triple](https://codeforces.com/contest/1669/problem/B) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/1669/B%20-%20Triple/solution.java) |
 | 1850A | [To My Critics](https://codeforces.com/contest/1850/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/1850/A%20-%20To%20My%20Critics/solution.java) |
 | 2021A | [Meaning Mean](https://codeforces.com/contest/2021/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/2021/A%20-%20Meaning%20Mean/solution.java) |
 | 2030A | [A Gift From Orangutan](https://codeforces.com/contest/2030/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/2030/A%20-%20A%20Gift%20From%20Orangutan/solution.java) |
@@ -266,10 +301,14 @@
 | 236A | [Boy or Girl](https://codeforces.com/contest/236/problem/A) | 800 | [Python 3](https://github.com/tamim65k/problem_solve/blob/HEAD/236/A%20-%20Boy%20or%20Girl/solution.py) |
 | 281A | [Word Capitalization](https://codeforces.com/contest/281/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/281/A%20-%20Word%20Capitalization/solution.java) |
 | 339A | [Helpful Maths](https://codeforces.com/contest/339/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/339/A%20-%20Helpful%20Maths/solution.java) |
+| 385B | [Bear and Strings](https://codeforces.com/contest/385/problem/B) | 1200 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/385/B%20-%20Bear%20and%20Strings/solution.java) |
 | 520A | [Pangram](https://codeforces.com/contest/520/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/520/A%20-%20Pangram/solution.java) |
 | 734A | [Anton and Danik](https://codeforces.com/contest/734/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/734/A%20-%20Anton%20and%20Danik/solution.java) |
+| 746B | [Decoding](https://codeforces.com/contest/746/problem/B) | 900 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/746/B%20-%20Decoding/solution.java) |
 | 831B | [Keyboard Layouts](https://codeforces.com/contest/831/problem/B) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/831/B%20-%20Keyboard%20Layouts/solution.java) |
+| 1189A | [Keanu Reeves](https://codeforces.com/contest/1189/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/1189/A%20-%20Keanu%20Reeves/solution.java) |
 | 1220A | [Cards](https://codeforces.com/contest/1220/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/1220/A%20-%20Cards/solution.java) |
+| 2000A | [Primary Task](https://codeforces.com/contest/2000/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/2000/A%20-%20Primary%20Task/solution.java) |
 
 ---
 
