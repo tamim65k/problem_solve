@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 259 | 26 |
+| 272 | 26 |
 
 ---
 
@@ -14,11 +14,11 @@
 
 - [*special](#special) (2)
 - [Uncategorized](#uncategorized) (4)
-- [binary search](#binary-search) (14)
+- [binary search](#binary-search) (15)
 - [bitmasks](#bitmasks) (9)
-- [brute force](#brute-force) (51)
+- [brute force](#brute-force) (54)
 - [combinatorics](#combinatorics) (7)
-- [constructive algorithms](#constructive-algorithms) (41)
+- [constructive algorithms](#constructive-algorithms) (42)
 - [data structures](#data-structures) (9)
 - [dfs and similar](#dfs-and-similar) (3)
 - [dp](#dp) (18)
@@ -27,17 +27,17 @@
 - [geometry](#geometry) (6)
 - [graph matchings](#graph-matchings) (2)
 - [graphs](#graphs) (2)
-- [greedy](#greedy) (93)
+- [greedy](#greedy) (95)
 - [hashing](#hashing) (1)
-- [implementation](#implementation) (115)
-- [math](#math) (90)
+- [implementation](#implementation) (127)
+- [math](#math) (96)
 - [number theory](#number-theory) (23)
 - [probabilities](#probabilities) (2)
 - [shortest paths](#shortest-paths) (1)
-- [sortings](#sortings) (33)
-- [strings](#strings) (37)
+- [sortings](#sortings) (35)
+- [strings](#strings) (39)
 - [trees](#trees) (4)
-- [two pointers](#two-pointers) (6)
+- [two pointers](#two-pointers) (7)
 
 ---
 
@@ -63,6 +63,7 @@
 |---|---------|------------|----------|
 | 230B | [T-primes](https://codeforces.com/contest/230/problem/B) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/230/B%20-%20T-primes/solution.cpp) |
 | 474B | [Worms](https://codeforces.com/contest/474/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/474/B%20-%20Worms/solution.cpp) |
+| 750A | [New Year and Hurry](https://codeforces.com/contest/750/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/750/A%20-%20New%20Year%20and%20Hurry/solution.cpp) |
 | 1352C | [K-th Not Divisible by n](https://codeforces.com/contest/1352/problem/C) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/1352/C%20-%20K-th%20Not%20Divisible%20by%20n/solution.cpp) |
 | 1725B | [Basketball Together](https://codeforces.com/contest/1725/problem/B) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/1725/B%20-%20Basketball%20Together/solution.cpp) |
 | 1744C | [Traffic Light](https://codeforces.com/contest/1744/problem/C) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/1744/C%20-%20Traffic%20Light/solution.cpp) |
@@ -108,6 +109,8 @@
 | 479A | [Expression](https://codeforces.com/contest/479/problem/A) | 1000 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/479/A%20-%20Expression/solution.java) |
 | 546A | [Soldier and Bananas](https://codeforces.com/contest/546/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/546/A%20-%20Soldier%20and%20Bananas/solution.java) |
 | 550B | [Preparing Olympiad](https://codeforces.com/contest/550/problem/B) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/550/B%20-%20Preparing%20Olympiad/solution.cpp) |
+| 732A | [Buy a Shovel](https://codeforces.com/contest/732/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/732/A%20-%20Buy%20a%20Shovel/solution.cpp) |
+| 750A | [New Year and Hurry](https://codeforces.com/contest/750/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/750/A%20-%20New%20Year%20and%20Hurry/solution.cpp) |
 | 894A | [QAQ](https://codeforces.com/contest/894/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/894/A%20-%20QAQ/solution.java) |
 | 918A | [Eleven](https://codeforces.com/contest/918/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/918/A%20-%20Eleven/solution.java) |
 | 935A | [Fafa and his Company](https://codeforces.com/contest/935/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/935/A%20-%20Fafa%20and%20his%20Company/solution.java) |
@@ -117,6 +120,7 @@
 | 1269A | [Equation](https://codeforces.com/contest/1269/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/1269/A%20-%20Equation/solution.java) |
 | 1535A | [Fair Playoff](https://codeforces.com/contest/1535/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/1535/A%20-%20Fair%20Playoff/solution.java) |
 | 1679A | [AvtoBus](https://codeforces.com/contest/1679/problem/A) | 900 | [C++20 (GCC 13-64)](https://github.com/tamim65k/problem_solve/blob/HEAD/1679/A%20-%20AvtoBus/solution.cpp) |
+| 1703A | [YES or YES?](https://codeforces.com/contest/1703/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/1703/A%20-%20YES%20or%20YES%3F/solution.cpp) |
 | 1704B | [Luke is a Foodie](https://codeforces.com/contest/1704/problem/B) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/1704/B%20-%20Luke%20is%20a%20Foodie/solution.cpp) |
 | 1791D | [Distinct Split](https://codeforces.com/contest/1791/problem/D) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/1791/D%20-%20Distinct%20Split/solution.cpp) |
 | 1850D | [Balanced Round](https://codeforces.com/contest/1850/problem/D) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/1850/D%20-%20Balanced%20Round/solution.cpp) |
@@ -167,6 +171,7 @@
 | 443A | [Anton and Letters](https://codeforces.com/contest/443/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/443/A%20-%20Anton%20and%20Letters/solution.java) |
 | 682A | [Alyona and Numbers](https://codeforces.com/contest/682/problem/A) | 1100 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/682/A%20-%20Alyona%20and%20Numbers/solution.java) |
 | 729D | [Sea Battle](https://codeforces.com/contest/729/problem/D) | 1700 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/729/D%20-%20Sea%20Battle/solution.java) |
+| 732A | [Buy a Shovel](https://codeforces.com/contest/732/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/732/A%20-%20Buy%20a%20Shovel/solution.cpp) |
 | 1088A | [Ehab and another construction problem](https://codeforces.com/contest/1088/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/1088/A%20-%20Ehab%20and%20another%20construction%20problem/solution.java) |
 | 1325A | [EhAb AnD gCd](https://codeforces.com/contest/1325/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/1325/A%20-%20EhAb%20AnD%20gCd/solution.cpp) |
 | 1454A | [Special Permutation](https://codeforces.com/contest/1454/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/1454/A%20-%20Special%20Permutation/solution.cpp) |
@@ -306,6 +311,7 @@
 | 231A | [Team](https://codeforces.com/contest/231/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/231/A%20-%20Team/solution.java) |
 | 337A | [Puzzles](https://codeforces.com/contest/337/problem/A) | 900 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/337/A%20-%20Puzzles/solution.java) |
 | 339A | [Helpful Maths](https://codeforces.com/contest/339/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/339/A%20-%20Helpful%20Maths/solution.java) |
+| 381A | [Sereja and Dima](https://codeforces.com/contest/381/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/381/A%20-%20Sereja%20and%20Dima/solution.cpp) |
 | 385B | [Bear and Strings](https://codeforces.com/contest/385/problem/B) | 1200 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/385/B%20-%20Bear%20and%20Strings/solution.java) |
 | 405A | [Gravity Flip](https://codeforces.com/contest/405/problem/A) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/405/A%20-%20Gravity%20Flip/solution.cpp) |
 | 432A | [Choosing Teams](https://codeforces.com/contest/432/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/432/A%20-%20Choosing%20Teams/solution.java) |
@@ -385,6 +391,7 @@
 | 2124B | [Minimise Sum](https://codeforces.com/contest/2124/problem/B) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/2124/B%20-%20Minimise%20Sum/solution.cpp) |
 | 2126B | [No Casino in the Mountains](https://codeforces.com/contest/2126/problem/B) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/2126/B%20-%20No%20Casino%20in%20the%20Mountains/solution.cpp) |
 | 2127A | [Mix Mex Max](https://codeforces.com/contest/2127/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/2127/A%20-%20Mix%20Mex%20Max/solution.cpp) |
+| 2149C | [MEX rose](https://codeforces.com/contest/2149/problem/C) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/2149/C%20-%20MEX%20rose/solution.cpp) |
 | 2161A | [Round Trip](https://codeforces.com/contest/2161/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/2161/A%20-%20Round%20Trip/solution.cpp) |
 | 2161C | [Loyalty](https://codeforces.com/contest/2161/problem/C) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/2161/C%20-%20Loyalty/solution.cpp) |
 | 2167C | [Isamatdin and His Magic Wand!](https://codeforces.com/contest/2167/problem/C) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/2167/C%20-%20Isamatdin%20and%20His%20Magic%20Wand!/solution.cpp) |
@@ -414,8 +421,10 @@
 | 116A | [Tram](https://codeforces.com/contest/116/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/116/A%20-%20Tram/solution.java) |
 | 118A | [String Task](https://codeforces.com/contest/118/problem/A) | 1000 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/118/A%20-%20String%20Task/solution.java) |
 | 136A | [Presents](https://codeforces.com/contest/136/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/136/A%20-%20Presents/solution.java) |
+| 141A | [Amusing Joke](https://codeforces.com/contest/141/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/141/A%20-%20Amusing%20Joke/solution.cpp) |
 | 144A | [Arrival of the General](https://codeforces.com/contest/144/problem/A) | 800 | [Python 3](https://github.com/tamim65k/problem_solve/blob/HEAD/144/A%20-%20Arrival%20of%20the%20General/solution.py) |
 | 148A | [Insomnia cure](https://codeforces.com/contest/148/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/148/A%20-%20Insomnia%20cure/solution.cpp) |
+| 151A | [Soft Drinking](https://codeforces.com/contest/151/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/151/A%20-%20Soft%20Drinking/solution.cpp) |
 | 158A | [Next Round](https://codeforces.com/contest/158/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/158/A%20-%20Next%20Round/solution.java) |
 | 200B | [Drinks](https://codeforces.com/contest/200/problem/B) | 800 | [Go](https://github.com/tamim65k/problem_solve/blob/HEAD/200/B%20-%20Drinks/solution.txt) |
 | 228A | [Is your horseshoe on the other hoof?](https://codeforces.com/contest/228/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/228/A%20-%20Is%20your%20horseshoe%20on%20the%20other%20hoof%3F/solution.cpp) |
@@ -429,8 +438,10 @@
 | 339A | [Helpful Maths](https://codeforces.com/contest/339/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/339/A%20-%20Helpful%20Maths/solution.java) |
 | 339B | [Xenia and Ringroad](https://codeforces.com/contest/339/problem/B) | 1000 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/339/B%20-%20Xenia%20and%20Ringroad/solution.java) |
 | 344A | [Magnets](https://codeforces.com/contest/344/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/344/A%20-%20Magnets/solution.java) |
+| 381A | [Sereja and Dima](https://codeforces.com/contest/381/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/381/A%20-%20Sereja%20and%20Dima/solution.cpp) |
 | 385B | [Bear and Strings](https://codeforces.com/contest/385/problem/B) | 1200 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/385/B%20-%20Bear%20and%20Strings/solution.java) |
 | 405A | [Gravity Flip](https://codeforces.com/contest/405/problem/A) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/405/A%20-%20Gravity%20Flip/solution.cpp) |
+| 427A | [Police Recruits](https://codeforces.com/contest/427/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/427/A%20-%20Police%20Recruits/solution.cpp) |
 | 432A | [Choosing Teams](https://codeforces.com/contest/432/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/432/A%20-%20Choosing%20Teams/solution.java) |
 | 433B | [Kuriyama Mirai's Stones](https://codeforces.com/contest/433/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/433/B%20-%20Kuriyama%20Mirai's%20Stones/solution.cpp) |
 | 443A | [Anton and Letters](https://codeforces.com/contest/443/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/443/A%20-%20Anton%20and%20Letters/solution.java) |
@@ -447,8 +458,11 @@
 | 573A | [Bear and Poker](https://codeforces.com/contest/573/problem/A) | 1300 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/573/A%20-%20Bear%20and%20Poker/solution.java) |
 | 677A | [Vanya and Fence](https://codeforces.com/contest/677/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/677/A%20-%20Vanya%20and%20Fence/solution.java) |
 | 705A | [Hulk](https://codeforces.com/contest/705/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/705/A%20-%20Hulk/solution.cpp) |
+| 723A | [The New Year: Meeting Friends](https://codeforces.com/contest/723/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/723/A%20-%20The%20New%20Year%3A%20Meeting%20Friends/solution.cpp) |
+| 732A | [Buy a Shovel](https://codeforces.com/contest/732/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/732/A%20-%20Buy%20a%20Shovel/solution.cpp) |
 | 734A | [Anton and Danik](https://codeforces.com/contest/734/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/734/A%20-%20Anton%20and%20Danik/solution.java) |
 | 746B | [Decoding](https://codeforces.com/contest/746/problem/B) | 900 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/746/B%20-%20Decoding/solution.java) |
+| 750A | [New Year and Hurry](https://codeforces.com/contest/750/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/750/A%20-%20New%20Year%20and%20Hurry/solution.cpp) |
 | 785A | [Anton and Polyhedrons](https://codeforces.com/contest/785/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/785/A%20-%20Anton%20and%20Polyhedrons/solution.cpp) |
 | 791A | [Bear and Big Brother](https://codeforces.com/contest/791/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/791/A%20-%20Bear%20and%20Big%20Brother/solution.java) |
 | 831B | [Keyboard Layouts](https://codeforces.com/contest/831/problem/B) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/831/B%20-%20Keyboard%20Layouts/solution.java) |
@@ -474,14 +488,18 @@
 | 1220A | [Cards](https://codeforces.com/contest/1220/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/1220/A%20-%20Cards/solution.java) |
 | 1243A | [Maximum Square](https://codeforces.com/contest/1243/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/1243/A%20-%20Maximum%20Square/solution.java) |
 | 1287A | [Angry Students](https://codeforces.com/contest/1287/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/1287/A%20-%20Angry%20Students/solution.java) |
+| 1352A | [Sum of Round Numbers](https://codeforces.com/contest/1352/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/1352/A%20-%20Sum%20of%20Round%20Numbers/solution.cpp) |
 | 1426A | [Floor Number](https://codeforces.com/contest/1426/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/1426/A%20-%20Floor%20Number/solution.cpp) |
 | 1433A | [Boring Apartments](https://codeforces.com/contest/1433/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/1433/A%20-%20Boring%20Apartments/solution.cpp) |
 | 1535A | [Fair Playoff](https://codeforces.com/contest/1535/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/1535/A%20-%20Fair%20Playoff/solution.java) |
+| 1669A | [Division?](https://codeforces.com/contest/1669/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/1669/A%20-%20Division%3F/solution.cpp) |
 | 1669B | [Triple](https://codeforces.com/contest/1669/problem/B) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/1669/B%20-%20Triple/solution.java) |
 | 1675B | [Make It Increasing](https://codeforces.com/contest/1675/problem/B) | 900 | [C++20 (GCC 13-64)](https://github.com/tamim65k/problem_solve/blob/HEAD/1675/B%20-%20Make%20It%20Increasing/solution.cpp) |
 | 1676A | [Lucky?](https://codeforces.com/contest/1676/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/1676/A%20-%20Lucky%3F/solution.cpp) |
 | 1691B | [Shoe Shuffling](https://codeforces.com/contest/1691/problem/B) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/1691/B%20-%20Shoe%20Shuffling/solution.cpp) |
+| 1703A | [YES or YES?](https://codeforces.com/contest/1703/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/1703/A%20-%20YES%20or%20YES%3F/solution.cpp) |
 | 1704B | [Luke is a Foodie](https://codeforces.com/contest/1704/problem/B) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/1704/B%20-%20Luke%20is%20a%20Foodie/solution.cpp) |
+| 1742A | [Sum](https://codeforces.com/contest/1742/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/1742/A%20-%20Sum/solution.cpp) |
 | 1744C | [Traffic Light](https://codeforces.com/contest/1744/problem/C) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/1744/C%20-%20Traffic%20Light/solution.cpp) |
 | 1807A | [Plus or Minus](https://codeforces.com/contest/1807/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/1807/A%20-%20Plus%20or%20Minus/solution.java) |
 | 1807D | [Odd Queries](https://codeforces.com/contest/1807/problem/D) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/1807/D%20-%20Odd%20Queries/solution.cpp) |
@@ -512,6 +530,7 @@
 | 2102B | [The Picky Cat](https://codeforces.com/contest/2102/problem/B) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/2102/B%20-%20The%20Picky%20Cat/solution.cpp) |
 | 2117A | [False Alarm](https://codeforces.com/contest/2117/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/2117/A%20-%20False%20Alarm/solution.cpp) |
 | 2126A | [Only One Digit](https://codeforces.com/contest/2126/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/2126/A%20-%20Only%20One%20Digit/solution.cpp) |
+| 2157B | [Expansion Plan 2](https://codeforces.com/contest/2157/problem/B) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/2157/B%20-%20Expansion%20Plan%202/solution.cpp) |
 | 2161A | [Round Trip](https://codeforces.com/contest/2161/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/2161/A%20-%20Round%20Trip/solution.cpp) |
 | 2167C | [Isamatdin and His Magic Wand!](https://codeforces.com/contest/2167/problem/C) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/2167/C%20-%20Isamatdin%20and%20His%20Magic%20Wand!/solution.cpp) |
 | 2169A | [Alice and Bob](https://codeforces.com/contest/2169/problem/A) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/2169/A%20-%20Alice%20and%20Bob/solution.cpp) |
@@ -528,6 +547,7 @@
 | 50A | [Domino piling](https://codeforces.com/contest/50/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/50/A%20-%20Domino%20piling/solution.java) |
 | 69A | [Young Physicist](https://codeforces.com/contest/69/problem/A) | 1000 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/69/A%20-%20Young%20Physicist/solution.java) |
 | 148A | [Insomnia cure](https://codeforces.com/contest/148/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/148/A%20-%20Insomnia%20cure/solution.cpp) |
+| 151A | [Soft Drinking](https://codeforces.com/contest/151/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/151/A%20-%20Soft%20Drinking/solution.cpp) |
 | 200B | [Drinks](https://codeforces.com/contest/200/problem/B) | 800 | [Go](https://github.com/tamim65k/problem_solve/blob/HEAD/200/B%20-%20Drinks/solution.txt) |
 | 230B | [T-primes](https://codeforces.com/contest/230/problem/B) | 1300 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/230/B%20-%20T-primes/solution.cpp) |
 | 318A | [Even Odds](https://codeforces.com/contest/318/problem/A) | 900 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/318/A%20-%20Even%20Odds/solution.java) |
@@ -539,8 +559,11 @@
 | 573A | [Bear and Poker](https://codeforces.com/contest/573/problem/A) | 1300 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/573/A%20-%20Bear%20and%20Poker/solution.java) |
 | 617A | [Elephant](https://codeforces.com/contest/617/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/617/A%20-%20Elephant/solution.java) |
 | 682A | [Alyona and Numbers](https://codeforces.com/contest/682/problem/A) | 1100 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/682/A%20-%20Alyona%20and%20Numbers/solution.java) |
+| 723A | [The New Year: Meeting Friends](https://codeforces.com/contest/723/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/723/A%20-%20The%20New%20Year%3A%20Meeting%20Friends/solution.cpp) |
 | 729D | [Sea Battle](https://codeforces.com/contest/729/problem/D) | 1700 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/729/D%20-%20Sea%20Battle/solution.java) |
+| 732A | [Buy a Shovel](https://codeforces.com/contest/732/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/732/A%20-%20Buy%20a%20Shovel/solution.cpp) |
 | 735D | [Taxes](https://codeforces.com/contest/735/problem/D) | 1600 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/735/D%20-%20Taxes/solution.java) |
+| 750A | [New Year and Hurry](https://codeforces.com/contest/750/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/750/A%20-%20New%20Year%20and%20Hurry/solution.cpp) |
 | 832A | [Sasha and Sticks](https://codeforces.com/contest/832/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/832/A%20-%20Sasha%20and%20Sticks/solution.java) |
 | 898A | [Rounding](https://codeforces.com/contest/898/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/898/A%20-%20Rounding/solution.java) |
 | 959A | [Mahmoud and Ehab and the even-odd game](https://codeforces.com/contest/959/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/959/A%20-%20Mahmoud%20and%20Ehab%20and%20the%20even-odd%20game/solution.java) |
@@ -556,6 +579,7 @@
 | 1269A | [Equation](https://codeforces.com/contest/1269/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/1269/A%20-%20Equation/solution.java) |
 | 1328A | [Divisibility Problem](https://codeforces.com/contest/1328/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/1328/A%20-%20Divisibility%20Problem/solution.cpp) |
 | 1335A | [Candies and Two Sisters](https://codeforces.com/contest/1335/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/1335/A%20-%20Candies%20and%20Two%20Sisters/solution.cpp) |
+| 1352A | [Sum of Round Numbers](https://codeforces.com/contest/1352/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/1352/A%20-%20Sum%20of%20Round%20Numbers/solution.cpp) |
 | 1352C | [K-th Not Divisible by n](https://codeforces.com/contest/1352/problem/C) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/1352/C%20-%20K-th%20Not%20Divisible%20by%20n/solution.cpp) |
 | 1374B | [Multiply by 2, divide by 6](https://codeforces.com/contest/1374/problem/B) | 900 | [C++20 (GCC 13-64)](https://github.com/tamim65k/problem_solve/blob/HEAD/1374/B%20-%20Multiply%20by%202%2C%20divide%20by%206/solution.cpp) |
 | 1426A | [Floor Number](https://codeforces.com/contest/1426/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/1426/A%20-%20Floor%20Number/solution.cpp) |
@@ -609,6 +633,7 @@
 | 2126A | [Only One Digit](https://codeforces.com/contest/2126/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/2126/A%20-%20Only%20One%20Digit/solution.cpp) |
 | 2127A | [Mix Mex Max](https://codeforces.com/contest/2127/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/2127/A%20-%20Mix%20Mex%20Max/solution.cpp) |
 | 2131A | [Lever](https://codeforces.com/contest/2131/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/2131/A%20-%20Lever/solution.cpp) |
+| 2157B | [Expansion Plan 2](https://codeforces.com/contest/2157/problem/B) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/2157/B%20-%20Expansion%20Plan%202/solution.cpp) |
 | 2161A | [Round Trip](https://codeforces.com/contest/2161/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/2161/A%20-%20Round%20Trip/solution.cpp) |
 | 2164B | [Even Modulo Pair](https://codeforces.com/contest/2164/problem/B) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/2164/B%20-%20Even%20Modulo%20Pair/solution.cpp) |
 | 2169D1 | [Removal of a Sequence (Easy Version)](https://codeforces.com/contest/2169/problem/D1) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/2169/D1%20-%20Removal%20of%20a%20Sequence%20(Easy%20Version)/solution.cpp) |
@@ -660,12 +685,14 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 141A | [Amusing Joke](https://codeforces.com/contest/141/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/141/A%20-%20Amusing%20Joke/solution.cpp) |
 | 160A | [Twins](https://codeforces.com/contest/160/problem/A) | 900 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/160/A%20-%20Twins/solution.java) |
 | 339A | [Helpful Maths](https://codeforces.com/contest/339/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/339/A%20-%20Helpful%20Maths/solution.java) |
 | 405A | [Gravity Flip](https://codeforces.com/contest/405/problem/A) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/405/A%20-%20Gravity%20Flip/solution.cpp) |
 | 432A | [Choosing Teams](https://codeforces.com/contest/432/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/432/A%20-%20Choosing%20Teams/solution.java) |
 | 433B | [Kuriyama Mirai's Stones](https://codeforces.com/contest/433/problem/B) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/433/B%20-%20Kuriyama%20Mirai's%20Stones/solution.cpp) |
 | 490A | [Team Olympiad](https://codeforces.com/contest/490/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/490/A%20-%20Team%20Olympiad/solution.java) |
+| 723A | [The New Year: Meeting Friends](https://codeforces.com/contest/723/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/723/A%20-%20The%20New%20Year%3A%20Meeting%20Friends/solution.cpp) |
 | 937A | [Olympiad](https://codeforces.com/contest/937/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/937/A%20-%20Olympiad/solution.java) |
 | 984A | [Game](https://codeforces.com/contest/984/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/984/A%20-%20Game/solution.java) |
 | 1106C | [Lunar New Year and Number Division](https://codeforces.com/contest/1106/problem/C) | 900 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/1106/C%20-%20Lunar%20New%20Year%20and%20Number%20Division/solution.java) |
@@ -704,6 +731,7 @@
 | 71A | [Way Too Long Words](https://codeforces.com/contest/71/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/71/A%20-%20Way%20Too%20Long%20Words/solution.java) |
 | 112A | [Petya and Strings](https://codeforces.com/contest/112/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/112/A%20-%20Petya%20and%20Strings/solution.java) |
 | 118A | [String Task](https://codeforces.com/contest/118/problem/A) | 1000 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/118/A%20-%20String%20Task/solution.java) |
+| 141A | [Amusing Joke](https://codeforces.com/contest/141/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/141/A%20-%20Amusing%20Joke/solution.cpp) |
 | 208A | [Dubstep](https://codeforces.com/contest/208/problem/A) | 900 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/208/A%20-%20Dubstep/solution.java) |
 | 236A | [Boy or Girl](https://codeforces.com/contest/236/problem/A) | 800 | [Python 3](https://github.com/tamim65k/problem_solve/blob/HEAD/236/A%20-%20Boy%20or%20Girl/solution.py) |
 | 281A | [Word Capitalization](https://codeforces.com/contest/281/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/281/A%20-%20Word%20Capitalization/solution.java) |
@@ -718,6 +746,7 @@
 | 831B | [Keyboard Layouts](https://codeforces.com/contest/831/problem/B) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/831/B%20-%20Keyboard%20Layouts/solution.java) |
 | 1189A | [Keanu Reeves](https://codeforces.com/contest/1189/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/1189/A%20-%20Keanu%20Reeves/solution.java) |
 | 1220A | [Cards](https://codeforces.com/contest/1220/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/1220/A%20-%20Cards/solution.java) |
+| 1703A | [YES or YES?](https://codeforces.com/contest/1703/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/1703/A%20-%20YES%20or%20YES%3F/solution.cpp) |
 | 1791D | [Distinct Split](https://codeforces.com/contest/1791/problem/D) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/1791/D%20-%20Distinct%20Split/solution.cpp) |
 | 1829A | [Love Story](https://codeforces.com/contest/1829/problem/A) | 800 | [Go](https://github.com/tamim65k/problem_solve/blob/HEAD/1829/A%20-%20Love%20Story/solution.txt) |
 | 1881A | [Don't Try to Count](https://codeforces.com/contest/1881/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/1881/A%20-%20Don't%20Try%20to%20Count/solution.cpp) |
@@ -749,6 +778,7 @@
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
+| 381A | [Sereja and Dima](https://codeforces.com/contest/381/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/381/A%20-%20Sereja%20and%20Dima/solution.cpp) |
 | 1691B | [Shoe Shuffling](https://codeforces.com/contest/1691/problem/B) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/1691/B%20-%20Shoe%20Shuffling/solution.cpp) |
 | 1744C | [Traffic Light](https://codeforces.com/contest/1744/problem/C) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/1744/C%20-%20Traffic%20Light/solution.cpp) |
 | 1904B | [Collecting Game](https://codeforces.com/contest/1904/problem/B) | 1100 | [C++20 (GCC 13-64)](https://github.com/tamim65k/problem_solve/blob/HEAD/1904/B%20-%20Collecting%20Game/solution.cpp) |
