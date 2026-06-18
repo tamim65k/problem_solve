@@ -1,0 +1,23 @@
+<h2><a href="https://codeforces.com/contest/2034/problem/H" target="_blank" rel="noopener noreferrer">2034H — Rayan vs. Rayaneh</a></h2>
+
+| | |
+|---|---|
+| **Difficulty** | 3300 |
+| **Language** | C++23 (GCC 14-64, msys2) |
+| **Verdict** | ✅ Accepted |
+| **Problem Link** | [Codeforces 2034H](https://codeforces.com/contest/2034/problem/H) |
+
+## Topics
+`brute force` `dfs and similar` `dp` `number theory`
+
+---
+
+## Problem Statement
+
+<div class="header"><div class="title">H. Rayan vs. Rayaneh</div><div class="time-limit"><div class="property-title">time limit per test</div>4 seconds</div><div class="memory-limit"><div class="property-title">memory limit per test</div>512 megabytes</div><div class="input-file input-standard"><div class="property-title">input</div>standard input</div><div class="output-file output-standard"><div class="property-title">output</div>standard output</div></div><div><p>Rayan makes his final efforts to win Reyhaneh's heart by claiming he is stronger than Rayaneh (i.e., computer in Persian). To test this, Reyhaneh asks <a href="https://en.wikipedia.org/wiki/Al-Khwarizmi">Khwarizmi</a> for help. Khwarizmi explains that a set is <span class="tex-font-style-it">integer linearly independent</span> if no element in the set can be written as an integer linear combination of the others. Rayan is given a set of integers each time and must identify one of the largest possible integer linearly independent subsets.</p><p>Note that a single element is always considered an integer linearly independent subset.</p><p>An <span class="tex-font-style-it">integer linearly combination</span> of $$$a_1, \ldots, a_k$$$ is any sum of the form $$$c_1 \cdot a_1 + c_2 \cdot a_2 + \ldots + c_k \cdot a_k$$$ where $$$c_1, c_2, \ldots, c_k$$$ are integers (which may be zero, positive, or negative).</p></div><div class="input-specification"><div class="section-title">Input</div><p>The first line contains an integer $$$t$$$ ($$$1 \leq t \leq 100$$$), the number of test cases.</p><p>The first line of each test case contains an integer $$$n$$$ ($$$1 \leq n \leq 10^5$$$), the size of the set. The second line contains $$$n$$$ distinct integers $$$a_1, a_2, \ldots, a_n$$$ ($$$1 \leq a_i \leq 10^5$$$).</p><p>The sum of $$$n$$$ over all test cases does not exceed $$$3 \cdot 10^6$$$.</p></div><div class="output-specification"><div class="section-title">Output</div><p>In the first line of each test case print the size of the largest integer linearly independent subset.</p><p>In the next line, print one such subset in any order. If there are multiple valid subsets, print any one of them.</p></div><div class="sample-tests"><div class="section-title">Example</div><div class="sample-test"><div class="input"><div class="title">Input<div title="Copy" data-clipboard-target="#id0044405277787376196" id="id009306681921295864" class="input-output-copier">Copy</div></div><pre id="id0044405277787376196"><div class="test-example-line test-example-line-even test-example-line-0">3</div><div class="test-example-line test-example-line-odd test-example-line-1">5</div><div class="test-example-line test-example-line-odd test-example-line-1">2 4 6 8 10</div><div class="test-example-line test-example-line-even test-example-line-2">5</div><div class="test-example-line test-example-line-even test-example-line-2">12 15 21 30 35</div><div class="test-example-line test-example-line-odd test-example-line-3">3</div><div class="test-example-line test-example-line-odd test-example-line-3">2 3 6</div></pre></div><div class="output"><div class="title">Output<div title="Copy" data-clipboard-target="#id009684756268494867" id="id007265349849191253" class="input-output-copier">Copy</div></div><pre id="id009684756268494867">2
+4 6
+3
+35 21 30
+2
+2 3
+</pre></div></div></div><div class="note"><div class="section-title">Note</div><p>In example 1, $$$\{4, 6\}$$$ is an integer linearly independent subset. It can be proven that there is no integer linearly independent subset with at least $$$3$$$ elements.</p><p>In example 2, $$$\{35, 21, 30\}$$$ is an integer linearly independent subset because no integer linear combination of any two elements can create the third. There is no integer linearly independent subset with at least $$$4$$$ elements.</p><p>In example 3, $$$\{2, 3, 6\}$$$ is <span class="tex-font-style-bf">not</span> an integer linearly independent subset since $$$6$$$ can be written as $$$6 \cdot 2 + (-2) \cdot 3$$$, which is an integer linear combination of $$$\{2, 3\}$$$.</p></div>
