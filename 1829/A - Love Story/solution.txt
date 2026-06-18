@@ -1,0 +1,25 @@
+package main
+ 
+import (
+	"fmt"
+)
+ 
+func main() {
+	const target = "codeforces"
+	var t int
+ 
+	fmt.Scan(&t)
+	for i := 0; i < t; i++ {
+		var s string
+		fmt.Scan(&s)
+ 
+		differences := 0
+		for j := 0; j < len(s); j++ {
+			if s[j] != target[j] {
+				differences++
+			}
+		}
+ 
+		fmt.Println(differences)
+	}
+}
