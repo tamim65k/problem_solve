@@ -6,21 +6,85 @@
 
 | Total Problems | Topics |
 |---|---|
-| 1 | 1 |
+| 15 | 7 |
 
 ---
 
 ## 📂 Topic-Wise Problems
 
-- [implementation](#implementation) (1)
+- [*special](#special) (1)
+- [brute force](#brute-force) (4)
+- [greedy](#greedy) (3)
+- [implementation](#implementation) (10)
+- [math](#math) (4)
+- [sortings](#sortings) (1)
+- [strings](#strings) (6)
 
 ---
+
+### *special
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 158A | [Next Round](https://codeforces.com/contest/158/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/158/A%20-%20Next%20Round/solution.java) |
+
+### brute force
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 4A | [Watermelon](https://codeforces.com/contest/4/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/4/A%20-%20Watermelon/solution.java) |
+| 231A | [Team](https://codeforces.com/contest/231/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/231/A%20-%20Team/solution.java) |
+| 236A | [Boy or Girl](https://codeforces.com/contest/236/problem/A) | 800 | [Python 3](https://github.com/tamim65k/problem_solve/blob/HEAD/236/A%20-%20Boy%20or%20Girl/solution.py) |
+| 546A | [Soldier and Bananas](https://codeforces.com/contest/546/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/546/A%20-%20Soldier%20and%20Bananas/solution.java) |
+
+### greedy
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 50A | [Domino piling](https://codeforces.com/contest/50/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/50/A%20-%20Domino%20piling/solution.java) |
+| 231A | [Team](https://codeforces.com/contest/231/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/231/A%20-%20Team/solution.java) |
+| 339A | [Helpful Maths](https://codeforces.com/contest/339/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/339/A%20-%20Helpful%20Maths/solution.java) |
 
 ### implementation
 
 | # | Problem | Difficulty | Solution |
 |---|---------|------------|----------|
-| 1676A | [Lucky?](https://codeforces.com/contest/1676/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/1676/A%20-%20Lucky%3F/solution.cpp) |
+| 59A | [Word](https://codeforces.com/contest/59/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/59/A%20-%20Word/solution.java) |
+| 112A | [Petya and Strings](https://codeforces.com/contest/112/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/112/A%20-%20Petya%20and%20Strings/solution.java) |
+| 158A | [Next Round](https://codeforces.com/contest/158/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/158/A%20-%20Next%20Round/solution.java) |
+| 236A | [Boy or Girl](https://codeforces.com/contest/236/problem/A) | 800 | [Python 3](https://github.com/tamim65k/problem_solve/blob/HEAD/236/A%20-%20Boy%20or%20Girl/solution.py) |
+| 263A | [Beautiful Matrix](https://codeforces.com/contest/263/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/263/A%20-%20Beautiful%20Matrix/solution.java) |
+| 266A | [Stones on the Table](https://codeforces.com/contest/266/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/266/A%20-%20Stones%20on%20the%20Table/solution.java) |
+| 281A | [Word Capitalization](https://codeforces.com/contest/281/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/281/A%20-%20Word%20Capitalization/solution.java) |
+| 282A | [Bit++](https://codeforces.com/contest/282/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/282/A%20-%20Bit%2B%2B/solution.java) |
+| 339A | [Helpful Maths](https://codeforces.com/contest/339/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/339/A%20-%20Helpful%20Maths/solution.java) |
+| 546A | [Soldier and Bananas](https://codeforces.com/contest/546/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/546/A%20-%20Soldier%20and%20Bananas/solution.java) |
+
+### math
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 4A | [Watermelon](https://codeforces.com/contest/4/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/4/A%20-%20Watermelon/solution.java) |
+| 50A | [Domino piling](https://codeforces.com/contest/50/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/50/A%20-%20Domino%20piling/solution.java) |
+| 546A | [Soldier and Bananas](https://codeforces.com/contest/546/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/546/A%20-%20Soldier%20and%20Bananas/solution.java) |
+| 617A | [Elephant](https://codeforces.com/contest/617/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/617/A%20-%20Elephant/solution.java) |
+
+### sortings
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 339A | [Helpful Maths](https://codeforces.com/contest/339/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/339/A%20-%20Helpful%20Maths/solution.java) |
+
+### strings
+
+| # | Problem | Difficulty | Solution |
+|---|---------|------------|----------|
+| 59A | [Word](https://codeforces.com/contest/59/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/59/A%20-%20Word/solution.java) |
+| 71A | [Way Too Long Words](https://codeforces.com/contest/71/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/71/A%20-%20Way%20Too%20Long%20Words/solution.java) |
+| 112A | [Petya and Strings](https://codeforces.com/contest/112/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/112/A%20-%20Petya%20and%20Strings/solution.java) |
+| 236A | [Boy or Girl](https://codeforces.com/contest/236/problem/A) | 800 | [Python 3](https://github.com/tamim65k/problem_solve/blob/HEAD/236/A%20-%20Boy%20or%20Girl/solution.py) |
+| 281A | [Word Capitalization](https://codeforces.com/contest/281/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/281/A%20-%20Word%20Capitalization/solution.java) |
+| 339A | [Helpful Maths](https://codeforces.com/contest/339/problem/A) | 800 | [Java 21](https://github.com/tamim65k/problem_solve/blob/HEAD/339/A%20-%20Helpful%20Maths/solution.java) |
 
 ---
 
