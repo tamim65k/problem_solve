@@ -1,28 +1,22 @@
-class Solution {
+class Solution{
 public:
-    vector<int> productExceptSelf(vector<int> & nums){
+    vector<int> productExceptSelf(vector<int>& nums){
         int n = nums.size();
-        
-        int countZeros(0), indexZero(-1), productWithoutZero(1);
-
-        for(int i=0;i<n; i++){
-            if(nums[i]==0){
-                countZeros++;
-                indexZero=i;
-            } else {
-                productWithoutZero *= nums[i];
-            }
+        vector<int> ans(n);
+        vector<int> left_p(n);
+        vector<int> right_p(n);
+        left_p[0] = 1;
+        for(int i=1;i<n;i++){
+            left_p[i] = left_p[i-1] * nums[i-1];
         }
 
-        vector<int> ans(n,0);
+        right_p[n-1] = 1;
+        for(int i=n-2;i>=0;i--){
+            right_p[i] = right_p[i+1] * nums[i+1];
+        }
 
-        if(countZeros==0){
-            for(int i=0;i<n;i++){
-                ans[i] = productWithoutZero/nums[i];
-            }
-        } 
-        else if(countZeros==1){
-            ans[indexZero] = productWithoutZero;
+        for(int i=0;i<n;i++){
+            ans[i] = left_p[i] * right_p[i];
         }
 
         return ans;
