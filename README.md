@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 273 | 26 |
+| 274 | 26 |
 
 ---
 
@@ -29,7 +29,7 @@
 - [graphs](#graphs) (2)
 - [greedy](#greedy) (95)
 - [hashing](#hashing) (1)
-- [implementation](#implementation) (127)
+- [implementation](#implementation) (128)
 - [math](#math) (97)
 - [number theory](#number-theory) (23)
 - [probabilities](#probabilities) (2)
@@ -497,6 +497,7 @@
 | 1675B | [Make It Increasing](https://codeforces.com/contest/1675/problem/B) | 900 | [C++20 (GCC 13-64)](https://github.com/tamim65k/problem_solve/blob/HEAD/1675/B%20-%20Make%20It%20Increasing/solution.cpp) |
 | 1676A | [Lucky?](https://codeforces.com/contest/1676/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/1676/A%20-%20Lucky%3F/solution.cpp) |
 | 1691B | [Shoe Shuffling](https://codeforces.com/contest/1691/problem/B) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/1691/B%20-%20Shoe%20Shuffling/solution.cpp) |
+| 1692A | [Marathon](https://codeforces.com/contest/1692/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/1692/A%20-%20Marathon/solution.cpp) |
 | 1703A | [YES or YES?](https://codeforces.com/contest/1703/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/1703/A%20-%20YES%20or%20YES%3F/solution.cpp) |
 | 1704B | [Luke is a Foodie](https://codeforces.com/contest/1704/problem/B) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/1704/B%20-%20Luke%20is%20a%20Foodie/solution.cpp) |
 | 1742A | [Sum](https://codeforces.com/contest/1742/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/1742/A%20-%20Sum/solution.cpp) |
