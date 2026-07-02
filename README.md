@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 275 | 26 |
+| 276 | 26 |
 
 ---
 
@@ -27,11 +27,11 @@
 - [geometry](#geometry) (6)
 - [graph matchings](#graph-matchings) (2)
 - [graphs](#graphs) (2)
-- [greedy](#greedy) (95)
+- [greedy](#greedy) (96)
 - [hashing](#hashing) (1)
 - [implementation](#implementation) (129)
-- [math](#math) (98)
-- [number theory](#number-theory) (23)
+- [math](#math) (99)
+- [number theory](#number-theory) (24)
 - [probabilities](#probabilities) (2)
 - [shortest paths](#shortest-paths) (1)
 - [sortings](#sortings) (35)
@@ -400,6 +400,7 @@
 | 2171C2 | [Renako Amaori and XOR Game (hard version)](https://codeforces.com/contest/2171/problem/C2) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/2171/C2%20-%20Renako%20Amaori%20and%20XOR%20Game%20(hard%20version)/solution.cpp) |
 | 2171D | [Rae Taylor and Trees (easy version)](https://codeforces.com/contest/2171/problem/D) | 1400 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/2171/D%20-%20Rae%20Taylor%20and%20Trees%20(easy%20version)/solution.cpp) |
 | 2171F | [Rae Taylor and Trees (hard version)](https://codeforces.com/contest/2171/problem/F) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/2171/F%20-%20Rae%20Taylor%20and%20Trees%20(hard%20version)/solution.cpp) |
+| 2241A | [Divide and Conquer](https://codeforces.com/contest/2241/problem/A) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/2241/A%20-%20Divide%20and%20Conquer/solution.cpp) |
 
 ### hashing
 
@@ -643,6 +644,7 @@
 | 2169D1 | [Removal of a Sequence (Easy Version)](https://codeforces.com/contest/2169/problem/D1) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/2169/D1%20-%20Removal%20of%20a%20Sequence%20(Easy%20Version)/solution.cpp) |
 | 2171A | [Shizuku Hoshikawa and Farm Legs](https://codeforces.com/contest/2171/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/2171/A%20-%20Shizuku%20Hoshikawa%20and%20Farm%20Legs/solution.cpp) |
 | 2171B | [Yuu Koito and Minimum Absolute Sum](https://codeforces.com/contest/2171/problem/B) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/2171/B%20-%20Yuu%20Koito%20and%20Minimum%20Absolute%20Sum/solution.cpp) |
+| 2241A | [Divide and Conquer](https://codeforces.com/contest/2241/problem/A) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/2241/A%20-%20Divide%20and%20Conquer/solution.cpp) |
 
 ### number theory
 
@@ -671,6 +673,7 @@
 | 2125B | [Left and Down](https://codeforces.com/contest/2125/problem/B) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/2125/B%20-%20Left%20and%20Down/solution.cpp) |
 | 2164B | [Even Modulo Pair](https://codeforces.com/contest/2164/problem/B) | 1000 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/2164/B%20-%20Even%20Modulo%20Pair/solution.cpp) |
 | 2169D1 | [Removal of a Sequence (Easy Version)](https://codeforces.com/contest/2169/problem/D1) | 1500 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/2169/D1%20-%20Removal%20of%20a%20Sequence%20(Easy%20Version)/solution.cpp) |
+| 2241A | [Divide and Conquer](https://codeforces.com/contest/2241/problem/A) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/2241/A%20-%20Divide%20and%20Conquer/solution.cpp) |
 
 ### probabilities
 
