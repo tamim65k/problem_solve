@@ -6,7 +6,7 @@
 
 | Total Problems | Topics |
 |---|---|
-| 276 | 26 |
+| 277 | 26 |
 
 ---
 
@@ -18,9 +18,9 @@
 - [bitmasks](#bitmasks) (9)
 - [brute force](#brute-force) (54)
 - [combinatorics](#combinatorics) (7)
-- [constructive algorithms](#constructive-algorithms) (42)
+- [constructive algorithms](#constructive-algorithms) (43)
 - [data structures](#data-structures) (9)
-- [dfs and similar](#dfs-and-similar) (3)
+- [dfs and similar](#dfs-and-similar) (4)
 - [dp](#dp) (18)
 - [dsu](#dsu) (3)
 - [games](#games) (9)
@@ -30,7 +30,7 @@
 - [greedy](#greedy) (96)
 - [hashing](#hashing) (1)
 - [implementation](#implementation) (129)
-- [math](#math) (99)
+- [math](#math) (100)
 - [number theory](#number-theory) (24)
 - [probabilities](#probabilities) (2)
 - [shortest paths](#shortest-paths) (1)
@@ -208,6 +208,7 @@
 | 2161C | [Loyalty](https://codeforces.com/contest/2161/problem/C) | 1200 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/2161/C%20-%20Loyalty/solution.cpp) |
 | 2167C | [Isamatdin and His Magic Wand!](https://codeforces.com/contest/2167/problem/C) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/2167/C%20-%20Isamatdin%20and%20His%20Magic%20Wand!/solution.cpp) |
 | 2171F | [Rae Taylor and Trees (hard version)](https://codeforces.com/contest/2171/problem/F) | 1600 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/2171/F%20-%20Rae%20Taylor%20and%20Trees%20(hard%20version)/solution.cpp) |
+| 2241B | [Good times Good times](https://codeforces.com/contest/2241/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/2241/B%20-%20Good%20times%20Good%20times/solution.cpp) |
 
 ### data structures
 
@@ -230,6 +231,7 @@
 | 490F | [Treeland Tour](https://codeforces.com/contest/490/problem/F) | 2200 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/490/F%20-%20Treeland%20Tour/solution.cpp) |
 | 2034H | [Rayan vs. Rayaneh](https://codeforces.com/contest/2034/problem/H) | 3300 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/2034/H%20-%20Rayan%20vs.%20Rayaneh/solution.cpp) |
 | 2063F2 | [Counting Is Not Fun (Hard Version)](https://codeforces.com/contest/2063/problem/F2) | 2700 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/2063/F2%20-%20Counting%20Is%20Not%20Fun%20(Hard%20Version)/solution.cpp) |
+| 2241B | [Good times Good times](https://codeforces.com/contest/2241/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/2241/B%20-%20Good%20times%20Good%20times/solution.cpp) |
 
 ### dp
 
@@ -645,6 +647,7 @@
 | 2171A | [Shizuku Hoshikawa and Farm Legs](https://codeforces.com/contest/2171/problem/A) | 800 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/2171/A%20-%20Shizuku%20Hoshikawa%20and%20Farm%20Legs/solution.cpp) |
 | 2171B | [Yuu Koito and Minimum Absolute Sum](https://codeforces.com/contest/2171/problem/B) | 900 | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/2171/B%20-%20Yuu%20Koito%20and%20Minimum%20Absolute%20Sum/solution.cpp) |
 | 2241A | [Divide and Conquer](https://codeforces.com/contest/2241/problem/A) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/2241/A%20-%20Divide%20and%20Conquer/solution.cpp) |
+| 2241B | [Good times Good times](https://codeforces.com/contest/2241/problem/B) | Unrated | [C++23 (GCC 14-64, msys2)](https://github.com/tamim65k/problem_solve/blob/HEAD/2241/B%20-%20Good%20times%20Good%20times/solution.cpp) |
 
 ### number theory
 
