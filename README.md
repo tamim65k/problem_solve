@@ -834,4 +834,8 @@
 |  |
 | ------- |
 | [0015-3sum](https://github.com/tamim65k/problem_solve/tree/master/0015-3sum) |
+## Math
+|  |
+| ------- |
+| [0009-palindrome-number](https://github.com/tamim65k/problem_solve/tree/master/0009-palindrome-number) |
 <!---LeetCode Topics End-->
